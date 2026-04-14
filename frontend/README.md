@@ -1,11 +1,17 @@
 
-  # OTT Movie Showcase Website
+  # Where To Watch
 
-  This is a code bundle for OTT Movie Showcase Website. The original project is available at https://www.figma.com/design/UoBaajuLYodAifTaYvONMH/OTT-Movie-Showcase-Website.
+  This frontend was initially exported from a Figma design and then integrated with a custom backend API for auth, trending, search, and watchlist features.
 
   ## Running the code
 
-  Run `npm i` to install the dependencies.
+  Run `npm i` to install dependencies.
 
-  Run `npm run dev` to start the development server.
+  Create `.env` file:
+
+  ```env
+  VITE_API_URL=http://localhost:5000
+  ```
+
+  Run `npm run dev` to start the frontend server.
   
